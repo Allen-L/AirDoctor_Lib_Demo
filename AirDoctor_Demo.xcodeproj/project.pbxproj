@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437BAE691DD41AFB00AD7822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAE681DD41AFB00AD7822 /* main.m */; };
+		437BAE6C1DD41AFB00AD7822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAE6B1DD41AFB00AD7822 /* AppDelegate.m */; };
+		437BAE721DD41AFB00AD7822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437BAE701DD41AFB00AD7822 /* Main.storyboard */; };
+		437BAE741DD41AFB00AD7822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437BAE731DD41AFB00AD7822 /* Assets.xcassets */; };
+		437BAE771DD41AFB00AD7822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437BAE751DD41AFB00AD7822 /* LaunchScreen.storyboard */; };
+		437BAE821DD41AFB00AD7822 /* AirDoctor_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAE811DD41AFB00AD7822 /* AirDoctor_DemoTests.m */; };
+		437BAE8D1DD41AFB00AD7822 /* AirDoctor_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAE8C1DD41AFB00AD7822 /* AirDoctor_DemoUITests.m */; };
+		437BAEA21DD41BE000AD7822 /* Particulate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEA11DD41BE000AD7822 /* Particulate.m */; };
+		437BAEA51DD41C8100AD7822 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEA41DD41C8100AD7822 /* Device.m */; };
+		437BAEA91DD41ED400AD7822 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEA81DD41ED400AD7822 /* ScanViewController.m */; };
+		437BAEAC1DD41F7B00AD7822 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEAB1DD41F7B00AD7822 /* MainViewController.m */; };
+		437BAEB01DD448A200AD7822 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEAF1DD448A200AD7822 /* MainView.m */; };
+		437BAEB31DD4699700AD7822 /* blueToothConnected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437BAEB11DD4699700AD7822 /* blueToothConnected@2x.png */; };
+		437BAEB41DD4699700AD7822 /* blueToothNotConnected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437BAEB21DD4699700AD7822 /* blueToothNotConnected@2x.png */; };
+		437BAEBD1DD4727700AD7822 /* liblibVsonBle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 437BAEBC1DD4727700AD7822 /* liblibVsonBle.a */; };
+		437BAEC11DD47FDA00AD7822 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BAEC01DD47FDA00AD7822 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437BAE7E1DD41AFB00AD7822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437BAE5C1DD41AFB00AD7822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437BAE631DD41AFB00AD7822;
+			remoteInfo = AirDoctor_Demo;
+		};
+		437BAE891DD41AFB00AD7822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437BAE5C1DD41AFB00AD7822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437BAE631DD41AFB00AD7822;
+			remoteInfo = AirDoctor_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437BAE641DD41AFB00AD7822 /* AirDoctor_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDoctor_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437BAE681DD41AFB00AD7822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		437BAE6A1DD41AFB00AD7822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		437BAE6B1DD41AFB00AD7822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		437BAE711DD41AFB00AD7822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437BAE731DD41AFB00AD7822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437BAE761DD41AFB00AD7822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437BAE781DD41AFB00AD7822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437BAE7D1DD41AFB00AD7822 /* AirDoctor_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirDoctor_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437BAE811DD41AFB00AD7822 /* AirDoctor_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirDoctor_DemoTests.m; sourceTree = "<group>"; };
+		437BAE831DD41AFB00AD7822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437BAE881DD41AFB00AD7822 /* AirDoctor_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirDoctor_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437BAE8C1DD41AFB00AD7822 /* AirDoctor_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirDoctor_DemoUITests.m; sourceTree = "<group>"; };
+		437BAE8E1DD41AFB00AD7822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437BAE9B1DD41B6F00AD7822 /* VsonBleProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VsonBleProcess.h; sourceTree = "<group>"; };
+		437BAEA01DD41BE000AD7822 /* Particulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particulate.h; sourceTree = "<group>"; };
+		437BAEA11DD41BE000AD7822 /* Particulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Particulate.m; sourceTree = "<group>"; };
+		437BAEA31DD41C8100AD7822 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		437BAEA41DD41C8100AD7822 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		437BAEA71DD41ED400AD7822 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		437BAEA81DD41ED400AD7822 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		437BAEAA1DD41F7B00AD7822 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		437BAEAB1DD41F7B00AD7822 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		437BAEAE1DD448A200AD7822 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		437BAEAF1DD448A200AD7822 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		437BAEB11DD4699700AD7822 /* blueToothConnected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueToothConnected@2x.png"; sourceTree = "<group>"; };
+		437BAEB21DD4699700AD7822 /* blueToothNotConnected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueToothNotConnected@2x.png"; sourceTree = "<group>"; };
+		437BAEBC1DD4727700AD7822 /* liblibVsonBle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibVsonBle.a; sourceTree = "<group>"; };
+		437BAEBF1DD47FDA00AD7822 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		437BAEC01DD47FDA00AD7822 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437BAE611DD41AFB00AD7822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437BAEBD1DD4727700AD7822 /* liblibVsonBle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE7A1DD41AFB00AD7822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE851DD41AFB00AD7822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437BAE5B1DD41AFB00AD7822 = {
+			isa = PBXGroup;
+			children = (
+				437BAE661DD41AFB00AD7822 /* AirDoctor_Demo */,
+				437BAE801DD41AFB00AD7822 /* AirDoctor_DemoTests */,
+				437BAE8B1DD41AFB00AD7822 /* AirDoctor_DemoUITests */,
+				437BAE651DD41AFB00AD7822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437BAE651DD41AFB00AD7822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437BAE641DD41AFB00AD7822 /* AirDoctor_Demo.app */,
+				437BAE7D1DD41AFB00AD7822 /* AirDoctor_DemoTests.xctest */,
+				437BAE881DD41AFB00AD7822 /* AirDoctor_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437BAE661DD41AFB00AD7822 /* AirDoctor_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEA61DD41EC300AD7822 /* Controller */,
+				437BAE9F1DD41BA300AD7822 /* Model */,
+				437BAEAD1DD4488F00AD7822 /* View */,
+				437BAE9A1DD41B6F00AD7822 /* libVsonBle */,
+				437BAE6A1DD41AFB00AD7822 /* AppDelegate.h */,
+				437BAE6B1DD41AFB00AD7822 /* AppDelegate.m */,
+				437BAE701DD41AFB00AD7822 /* Main.storyboard */,
+				437BAE731DD41AFB00AD7822 /* Assets.xcassets */,
+				437BAE751DD41AFB00AD7822 /* LaunchScreen.storyboard */,
+				437BAE781DD41AFB00AD7822 /* Info.plist */,
+				437BAE671DD41AFB00AD7822 /* Supporting Files */,
+			);
+			path = AirDoctor_Demo;
+			sourceTree = "<group>";
+		};
+		437BAE671DD41AFB00AD7822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEB11DD4699700AD7822 /* blueToothConnected@2x.png */,
+				437BAEB21DD4699700AD7822 /* blueToothNotConnected@2x.png */,
+				437BAE681DD41AFB00AD7822 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		437BAE801DD41AFB00AD7822 /* AirDoctor_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				437BAE811DD41AFB00AD7822 /* AirDoctor_DemoTests.m */,
+				437BAE831DD41AFB00AD7822 /* Info.plist */,
+			);
+			path = AirDoctor_DemoTests;
+			sourceTree = "<group>";
+		};
+		437BAE8B1DD41AFB00AD7822 /* AirDoctor_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437BAE8C1DD41AFB00AD7822 /* AirDoctor_DemoUITests.m */,
+				437BAE8E1DD41AFB00AD7822 /* Info.plist */,
+			);
+			path = AirDoctor_DemoUITests;
+			sourceTree = "<group>";
+		};
+		437BAE9A1DD41B6F00AD7822 /* libVsonBle */ = {
+			isa = PBXGroup;
+			children = (
+				437BAE9B1DD41B6F00AD7822 /* VsonBleProcess.h */,
+				437BAEBC1DD4727700AD7822 /* liblibVsonBle.a */,
+			);
+			path = libVsonBle;
+			sourceTree = "<group>";
+		};
+		437BAE9F1DD41BA300AD7822 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEA01DD41BE000AD7822 /* Particulate.h */,
+				437BAEA11DD41BE000AD7822 /* Particulate.m */,
+				437BAEA31DD41C8100AD7822 /* Device.h */,
+				437BAEA41DD41C8100AD7822 /* Device.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		437BAEA61DD41EC300AD7822 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEA71DD41ED400AD7822 /* ScanViewController.h */,
+				437BAEA81DD41ED400AD7822 /* ScanViewController.m */,
+				437BAEAA1DD41F7B00AD7822 /* MainViewController.h */,
+				437BAEAB1DD41F7B00AD7822 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		437BAEAD1DD4488F00AD7822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEBE1DD47FDA00AD7822 /* HUD */,
+				437BAEAE1DD448A200AD7822 /* MainView.h */,
+				437BAEAF1DD448A200AD7822 /* MainView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		437BAEBE1DD47FDA00AD7822 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				437BAEBF1DD47FDA00AD7822 /* MBProgressHUD.h */,
+				437BAEC01DD47FDA00AD7822 /* MBProgressHUD.m */,
+			);
+			name = HUD;
+			path = AirDoctor_Demo/HUD;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437BAE631DD41AFB00AD7822 /* AirDoctor_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437BAE911DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_Demo" */;
+			buildPhases = (
+				437BAE601DD41AFB00AD7822 /* Sources */,
+				437BAE611DD41AFB00AD7822 /* Frameworks */,
+				437BAE621DD41AFB00AD7822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDoctor_Demo;
+			productName = AirDoctor_Demo;
+			productReference = 437BAE641DD41AFB00AD7822 /* AirDoctor_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437BAE7C1DD41AFB00AD7822 /* AirDoctor_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437BAE941DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_DemoTests" */;
+			buildPhases = (
+				437BAE791DD41AFB00AD7822 /* Sources */,
+				437BAE7A1DD41AFB00AD7822 /* Frameworks */,
+				437BAE7B1DD41AFB00AD7822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437BAE7F1DD41AFB00AD7822 /* PBXTargetDependency */,
+			);
+			name = AirDoctor_DemoTests;
+			productName = AirDoctor_DemoTests;
+			productReference = 437BAE7D1DD41AFB00AD7822 /* AirDoctor_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437BAE871DD41AFB00AD7822 /* AirDoctor_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437BAE971DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_DemoUITests" */;
+			buildPhases = (
+				437BAE841DD41AFB00AD7822 /* Sources */,
+				437BAE851DD41AFB00AD7822 /* Frameworks */,
+				437BAE861DD41AFB00AD7822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437BAE8A1DD41AFB00AD7822 /* PBXTargetDependency */,
+			);
+			name = AirDoctor_DemoUITests;
+			productName = AirDoctor_DemoUITests;
+			productReference = 437BAE881DD41AFB00AD7822 /* AirDoctor_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437BAE5C1DD41AFB00AD7822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = VSON;
+				TargetAttributes = {
+					437BAE631DD41AFB00AD7822 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2UKYM42797;
+						ProvisioningStyle = Automatic;
+					};
+					437BAE7C1DD41AFB00AD7822 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2UKYM42797;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 437BAE631DD41AFB00AD7822;
+					};
+					437BAE871DD41AFB00AD7822 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2UKYM42797;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 437BAE631DD41AFB00AD7822;
+					};
+				};
+			};
+			buildConfigurationList = 437BAE5F1DD41AFB00AD7822 /* Build configuration list for PBXProject "AirDoctor_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437BAE5B1DD41AFB00AD7822;
+			productRefGroup = 437BAE651DD41AFB00AD7822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437BAE631DD41AFB00AD7822 /* AirDoctor_Demo */,
+				437BAE7C1DD41AFB00AD7822 /* AirDoctor_DemoTests */,
+				437BAE871DD41AFB00AD7822 /* AirDoctor_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437BAE621DD41AFB00AD7822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437BAE771DD41AFB00AD7822 /* LaunchScreen.storyboard in Resources */,
+				437BAE741DD41AFB00AD7822 /* Assets.xcassets in Resources */,
+				437BAE721DD41AFB00AD7822 /* Main.storyboard in Resources */,
+				437BAEB41DD4699700AD7822 /* blueToothNotConnected@2x.png in Resources */,
+				437BAEB31DD4699700AD7822 /* blueToothConnected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE7B1DD41AFB00AD7822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE861DD41AFB00AD7822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437BAE601DD41AFB00AD7822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437BAEA21DD41BE000AD7822 /* Particulate.m in Sources */,
+				437BAE6C1DD41AFB00AD7822 /* AppDelegate.m in Sources */,
+				437BAEAC1DD41F7B00AD7822 /* MainViewController.m in Sources */,
+				437BAEA51DD41C8100AD7822 /* Device.m in Sources */,
+				437BAEB01DD448A200AD7822 /* MainView.m in Sources */,
+				437BAEA91DD41ED400AD7822 /* ScanViewController.m in Sources */,
+				437BAE691DD41AFB00AD7822 /* main.m in Sources */,
+				437BAEC11DD47FDA00AD7822 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE791DD41AFB00AD7822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437BAE821DD41AFB00AD7822 /* AirDoctor_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437BAE841DD41AFB00AD7822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437BAE8D1DD41AFB00AD7822 /* AirDoctor_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437BAE7F1DD41AFB00AD7822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437BAE631DD41AFB00AD7822 /* AirDoctor_Demo */;
+			targetProxy = 437BAE7E1DD41AFB00AD7822 /* PBXContainerItemProxy */;
+		};
+		437BAE8A1DD41AFB00AD7822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437BAE631DD41AFB00AD7822 /* AirDoctor_Demo */;
+			targetProxy = 437BAE891DD41AFB00AD7822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		437BAE701DD41AFB00AD7822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437BAE711DD41AFB00AD7822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		437BAE751DD41AFB00AD7822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437BAE761DD41AFB00AD7822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437BAE8F1DD41AFB00AD7822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		437BAE901DD41AFB00AD7822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437BAE921DD41AFB00AD7822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirDoctor_Demo/libVsonBle",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		437BAE931DD41AFB00AD7822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirDoctor_Demo/libVsonBle",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		437BAE951DD41AFB00AD7822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirDoctor_Demo.app/AirDoctor_Demo";
+			};
+			name = Debug;
+		};
+		437BAE961DD41AFB00AD7822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirDoctor_Demo.app/AirDoctor_Demo";
+			};
+			name = Release;
+		};
+		437BAE981DD41AFB00AD7822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirDoctor_Demo;
+			};
+			name = Debug;
+		};
+		437BAE991DD41AFB00AD7822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2UKYM42797;
+				INFOPLIST_FILE = AirDoctor_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vson.com.cn.AirDoctor-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirDoctor_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437BAE5F1DD41AFB00AD7822 /* Build configuration list for PBXProject "AirDoctor_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437BAE8F1DD41AFB00AD7822 /* Debug */,
+				437BAE901DD41AFB00AD7822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437BAE911DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437BAE921DD41AFB00AD7822 /* Debug */,
+				437BAE931DD41AFB00AD7822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		437BAE941DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437BAE951DD41AFB00AD7822 /* Debug */,
+				437BAE961DD41AFB00AD7822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		437BAE971DD41AFB00AD7822 /* Build configuration list for PBXNativeTarget "AirDoctor_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437BAE981DD41AFB00AD7822 /* Debug */,
+				437BAE991DD41AFB00AD7822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437BAE5C1DD41AFB00AD7822 /* Project object */;
+}
